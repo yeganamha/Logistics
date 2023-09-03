@@ -1,0 +1,9 @@
+{
+  "scripts":{
+    "sass:watch":"sass --watch --update --no-source-map --style=compressed assets/sass:build/css"
+  },
+
+  "dependencies": {
+    "sass": "^1.66.1"
+  }
+}
