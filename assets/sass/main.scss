@@ -310,5 +310,43 @@ hr{
         margin-left: 130px;
         border: 2px solid #fff;
         color: #fff;
+       
     }
     }
+
+    .container-features{
+        padding: 0 100px;
+        .container-features-box{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 60px;
+
+            .container-features-text{
+                width: 50%;
+                h3{
+                    margin-top: 70px;
+                    color: blue;
+                }
+                li{
+                    padding: 10px;
+                    color: gray;
+                }
+                p{
+                    padding: 10px;
+                    color: gray;
+                    font-style: italic;
+                }
+                span{
+                    color: gray;
+                }
+            }
+
+            .container-features-img{
+                width: 40%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
